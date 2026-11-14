@@ -1,12 +1,7 @@
-# Mathéopolis V1 — by BROT2YOU
+# Mathéopolis V1.1 — Royaume illustré
 
-Prototype jouable et autonome : 4 classes, 16 missions à exercices aléatoires, entraînement brevet découverte, profils locaux, sauvegarde automatique, export et import JSON.
+Déposez **tout le contenu** du dossier à la racine du dépôt GitHub Pages. Conservez le dossier `assets/`.
 
-## Publication GitHub Pages
-Créer un dépôt, placer `index.html`, `manifest.webmanifest` et `sw.js` à la racine, puis activer **Settings > Pages > Deploy from a branch > main / root**.
+La V1.1 réutilise le moteur d’exercices et le stockage local de la V1, avec export/import JSON. Les 16 missions et les deux modes brevet restent des prototypes pédagogiques, pas une couverture complète des programmes.
 
-## Important
-Cette V1 est un socle jouable, **pas encore la couverture exhaustive des programmes** ni une simulation réglementaire complète du DNB. Les épreuves brevet sont des entraînements originaux raccourcis. Le stockage est local au navigateur. Exporter régulièrement le JSON, surtout avant de vider les données du navigateur.
-
-## Sauvegardes
-Export complet des profils au format JSON, import avec vérification de structure et confirmation. L'import remplace les profils existants : exporter d'abord une copie de secours.
+Les visuels ont été convertis en WebP pour alléger le chargement. La V1.1 n'est pas encore une PWA hors ligne complète.
